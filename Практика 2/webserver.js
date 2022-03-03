@@ -1,5 +1,7 @@
 const http = require("http");
+
 const requestHandler = (request, response) => {
+
     response.setHeader("Content-Type", "text/html");
     response.write("<!DOCTYPE html>");
     response.write("<html>");
@@ -11,4 +13,6 @@ const requestHandler = (request, response) => {
     response.write("</html>");
     response.end("45678");
 };
+
+
 http.createServer(requestHandler).listen(3000);
