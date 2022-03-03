@@ -14,5 +14,4 @@ const requestHandler = (request, response) => {
     response.end("45678");
 };
 
-
 http.createServer(requestHandler).listen(3000);
