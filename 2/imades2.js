@@ -68,4 +68,4 @@ axios.get('https://http.cat/207', {
         console.log(error);
     })
 
-    .then(function () {});
+    .then(function () {});    
