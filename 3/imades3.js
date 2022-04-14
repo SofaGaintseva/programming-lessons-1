@@ -76,4 +76,4 @@ axios.get('https://http.cat/308', {
     })
 
 
-    .then(function () {});
+    .then(function () {}); 
