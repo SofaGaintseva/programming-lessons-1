@@ -43,4 +43,4 @@ axios.get('https://http.cat/102', {
     })
 
 
-    .then(function () {});       
+    .then(function () {});
