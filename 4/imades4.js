@@ -287,4 +287,4 @@ axios.get('https://http.cat/499', {
     })
 
 
-    .then(function () {});   
+    .then(function () {});
